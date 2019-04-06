@@ -10,7 +10,7 @@ import { CdkTableModule } from '@angular/cdk/table';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import { MaterialRoutes } from './material.routing';
+import { MaterialRoutes } from './truyenda.routing';
 import { ButtonsComponent } from './buttons/buttons.component';
 
 import { GridComponent } from './grid/grid.component';
@@ -31,6 +31,8 @@ import { TooltipComponent } from './tooltip/tooltip.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
+import { TableListComponent } from './table-list/table-list.component';
+import { ChukysComponent } from './chukys/chukys.component';
 
 @NgModule({
   imports: [
@@ -62,7 +64,9 @@ import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
     TooltipComponent,
     SnackbarComponent,
     SliderComponent,
-    SlideToggleComponent
+    SlideToggleComponent,
+    TableListComponent,
+    ChukysComponent
   ]
 })
 export class MaterialComponentsModule {}

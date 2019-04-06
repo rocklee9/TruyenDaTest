@@ -16,11 +16,21 @@ import { TooltipComponent } from './tooltip/tooltip.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
+import {TableListComponent} from './table-list/table-list.component';
+import {ChukysComponent} from './chukys/chukys.component';
 
 export const MaterialRoutes: Routes = [
   {
     path: 'button',
     component: ButtonsComponent
+  },
+  {
+    path: 'chuky',
+    component: ChukysComponent
+  },
+  {
+    path: 'table',
+    component: TableListComponent
   },
   {
     path: 'grid',

@@ -15,7 +15,7 @@ export const AppRoutes: Routes = [
       {
         path: '',
         loadChildren:
-          './material-component/material.module#MaterialComponentsModule'
+          './truyenda-component/truyenda.module#MaterialComponentsModule'
       },
       {
         path: 'starter',
