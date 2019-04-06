@@ -19,7 +19,6 @@ import { SharedModule } from './shared/shared.module';
 import { SpinnerComponent } from './shared/spinner.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
-import { ChukyComponent } from './chuky/chuky.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { ChukyComponent } from './chuky/chuky.component';
     AppSidebarComponent,
     DashboardComponent,
     LoginComponent,
-    ChukyComponent
   ],
   imports: [
     BrowserModule,
